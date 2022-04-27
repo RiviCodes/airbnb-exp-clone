@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="hero">
       <img
         src="../images/photo-grid.png"
-        alt="photo-grid"
+        alt="airbnb-grid"
         className="hero--photo"
       />
       <h2 className="hero--header">Online Experiences</h2>
