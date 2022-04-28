@@ -9,6 +9,20 @@
 
 .card {
   margin-right: 8px;
+  position: relative;
+}
+
+/* Badge at the top-left of the card */
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  opacity: 0.9;
+  padding: 4px 6px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bolder;
 }
 
 /* Resize pics to match each other size */
