@@ -8,12 +8,9 @@ function App() {
   const cards = peopleData.map((item) => {
     return (
       <Card
-        img={item.img}
-        rating={item.rating}
-        reviewCount={item.reviewCount}
-        country={item.country}
-        title={item.title}
-        price={item.price}
+        key={item.id}
+        item={item}
+        /* {...item} Destructuring the object works too, but it's a bit obscure */
       />
     );
   });
