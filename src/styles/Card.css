@@ -1,0 +1,52 @@
+/* Container for the Card instances */
+.card-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  margin-left: 24px;
+}
+
+.card {
+  margin-right: 8px;
+}
+
+/* Resize pics to match each other size */
+.card--image {
+  max-height: auto;
+  min-height: 26vw;
+  max-width: 17vw;
+  min-width: auto;
+  border-radius: 14px;
+}
+
+.card--star {
+  height: auto;
+  width: 16px;
+  margin-right: 4px;
+}
+
+.card--stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.grey {
+  color: #918E9B;
+}
+
+.card--title {
+  margin: 0px;
+  margin-bottom: 6px;
+}
+
+.card--price {
+  margin: 0px;
+}
+
+.p-bold {
+  font-weight: bolder;
+}
