@@ -6,16 +6,34 @@
 
 .hero--photo {
   height: auto;
-  width: 700px;
+  width: 60%;
   margin: 20px 0px 20px 0px;
   align-self: center;
 }
 
 .hero--header {
+  font-size: 2rem;
   margin: 0px 0px 14px 20px;
 }
 
 .hero--text {
   max-width: 440px;
   margin: 0px 0px 14px 20px;
+}
+
+@media (max-width: 500px) {
+  .hero--photo {
+    height: auto;
+    width: 88%;
+    margin: 20px 0px 20px 0px;
+    align-self: center;
+  }
+
+  .hero--header {
+    font-size: 1.5rem;
+  }
+
+  .hero--text {
+    font-size: 0.9rem;
+  }
 }

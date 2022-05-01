@@ -63,3 +63,31 @@
 .p-bold {
   font-weight: bolder;
 }
+
+@media (max-width: 500px) {
+
+  .card-list {
+    padding-left: 4vw;
+    gap: 0;
+  }
+
+  .card {
+    height: auto;
+    min-width: 38%; 
+    margin-right: 18vw
+  }
+
+  .card--image {
+    min-height: 75vw;
+    min-width: 50vw;
+    border-radius: 14px;
+  }
+
+  .card--title {
+    font-size: 3.5vw;
+  }
+
+  .card--price {
+    font-size: 3.2vw;
+  }
+}
