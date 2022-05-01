@@ -35,5 +35,6 @@
 
   .hero--text {
     font-size: 0.9rem;
+    width: 80%;
   }
 }
